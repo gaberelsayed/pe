@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Button, Form } from 'react-bootstrap'
 import { Input } from '../../components/Input'
 
-export const ClientShipmentsSearch = () => {
+export const ClientShipmentsSearch = () => {  
     const [inputsValue, setInputsValue] = useState({})
   return (
     <Form className='my-form'>
